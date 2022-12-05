@@ -4,7 +4,7 @@ import model.Card;
 
 import java.util.List;
 
-public interface FileUtil {
+public interface FileService {
 
     List<List<List<Card>>> readFile();
 }
