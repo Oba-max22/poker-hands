@@ -1,14 +1,14 @@
 package service.implementation;
 
 import model.Card;
-import service.FileUtil;
+import service.FileService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileUtilImpl implements FileUtil {
+public class FileServiceImpl implements FileService {
 
     private final static String FILE_PATH = "src/main/resources/poker.txt";
 
